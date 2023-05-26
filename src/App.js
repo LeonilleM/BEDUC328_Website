@@ -1,15 +1,16 @@
 import SideNavBar from "./components/Sidenavbar.jsx";
 import MobileNav from "./components/MobileNavBar.jsx";
+import Disclaimer from "./components/Disclaimer.jsx";
 import About from "./components/About.jsx";
-import Information1 from "./components/info_1.jsx";
+import HomePage from "./Pages/HomePage.jsx";
 
 function App() {
   return (
-    <div className="bg-grey-custom">
+    <div>
       <SideNavBar />
+      <Disclaimer />
       <MobileNav />
-      <About />
-      <Information1 />
+      <HomePage />
     </div>
   );
 }

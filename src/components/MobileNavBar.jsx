@@ -9,9 +9,9 @@ function MobileNavBar() {
   return (
     <div>
     {/* Mobile Menu */}
-    <div className="sm:hidden">
+    <div className="sm:hidden ease-in duration-150">
       <button
-        className="fixed top-0 left-0 z-50 flex items-center justify-center w-12 h-12 text-black"
+        className="fixed top-0 left-0 z-50 flex items-center justify-center w-12 h-12 text-uw-purple"
         onClick={toggleDropdown}
       >
         {isOpen ? (
@@ -48,12 +48,12 @@ function MobileNavBar() {
       </button>
       {isOpen && (
         <div
-          className="fixed top-0 left-0 w-full h-screen bg-gray-800 opacity-50 z-40 transition-opacity duration-300"
+          className="fixed top-0 left-0 w-full h-screen bg-gray-800 opacity-50 z-40 transition-opacity duration-200"
           onClick={toggleDropdown}
         />
       )}
       <div
-        className={`fixed top-0 left-0 z-50 w-64 h-screen bg-white transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 z-50 w-64 h-screen bg-white transform transition-transform duration-200 ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
