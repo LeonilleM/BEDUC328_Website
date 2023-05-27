@@ -6,7 +6,7 @@ function Home() {
     <div>
          <div>
             <section className="relative sm:ml-64 flex flex-col justify-center items-center">
-                <div className="container px-2 py-32 mx-auto flex flex-col">
+                <div className="container px-2 pt-32 pb-24 mx-auto flex flex-col">
                     <div className="lg:w-5/6 mx-auto">
                         <div className="rounded-lg">
                             <h1 className="font-lato text-uw-purple font-semibold sm:text-2xl md:text-4xl my-4">The School to Prison Pipeline</h1>

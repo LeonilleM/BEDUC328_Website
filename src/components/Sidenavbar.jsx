@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+
+import {Link} from 'react-router-dom';
+
+// Imports for Icons and Logos
 import Logo from '../Assets/UW_White_Logo.svg';
 import AboutIcon from  '../Assets/Icons/about_icon.svg';
 import HomeIcon from '../Assets/Icons/home_icon.svg';
@@ -16,8 +20,8 @@ function Sidenavbar() {
     <div>
       {/* Desktop Menu */}
       <aside
-        className={`fixed top-0 left-0 z-40 w-72 h-screen transform transition-transform ease-in-out duration-150 ${isOpen ? 'translate-x-0' : '-translate-x-full'
-          } sm:translate-x-0 sm:w-72 bg-uw-purple`}
+        className={`fixed top-0 left-0 z-40 w-64 h-screen transform transition-transform ease-in-out duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'
+          } sm:translate-x-0 sm:w-64 bg-uw-purple`}
         aria-label="Sidebar"
       >
         <div className="h-full py-4 overflow-y-auto">
@@ -29,18 +33,18 @@ function Sidenavbar() {
           </div>
           <ul className="space-y-2 font-medium pt-4">
             <li class="group">
-              <a href="#" class="flex p-3 pl-6 text-white text-xl transition duration-150 ease-in-out hover:bg-black/40 relative">
+              <Link to="/about" class="flex p-3 pl-6 text-white text-xl transition duration-150 ease-in-out hover:bg-black/40 relative">
                 <span class="group-hover:opacity-100 opacity-0 absolute left-0 top-0 h-full w-2 bg-black"></span>
                 <img src={AboutIcon} alt="Home Icon" className="w-8 mr-2 mx-2" />
                 About
-              </a>
+              </Link>
             </li>
             <li class="group">
-              <a href="#" class="flex p-3 pl-6 text-white text-xl transition duration-150 ease-in-out hover:bg-black/40 relative">
+              <Link to="/" class="flex p-3 pl-6 text-white text-xl transition duration-150 ease-in-out hover:bg-black/40 relative">
                 <span class="group-hover:opacity-100 opacity-0 absolute left-0 top-0 h-full w-2 bg-black"></span>
                 <img src={HomeIcon} alt="Home Icon" className="w-8 mr-2 mx-2" />
                 Home
-              </a>
+              </Link>
             </li>
             <li class="group">
               <a href="#" class="flex p-3 pl-6 text-white text-xl transition duration-150 ease-in-out hover:bg-black/40 relative">
