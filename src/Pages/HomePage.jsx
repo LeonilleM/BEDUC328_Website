@@ -10,10 +10,9 @@ import Action from '../components/Action'
 function HomePage() {
   return (
     <div>
-      <Navbar />
       <Home />
       <Cause />
-      <Action />
+      <Action/>
     </div>
   )
 }
