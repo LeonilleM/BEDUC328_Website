@@ -27,9 +27,11 @@ function MobileNavBar() {
   return (
     <div>
     {/* Mobile Menu */}
-    <section className="sm:hidden ease-in duration-150 ">
+    <section className="sm:hidden ease-in duration-150">
       <button
-        className="fixed top-0 left-0 z-50 flex items-center px-4 w-screen h-11 text-uw-purple"
+       className={`fixed top-0 left-0 z-50 flex items-center px-4 w-screen h-11 text-white ${
+            isOpen ? 'ease-out duration-300' : 'bg-uw-purple ease-in duration-300'
+          }`}
         onClick={toggleDropdown}
       >
         {isOpen ? (
