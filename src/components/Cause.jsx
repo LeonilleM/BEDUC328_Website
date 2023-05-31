@@ -10,9 +10,11 @@ function Cause() {
                         <div>
                             <h1 className="font-lato font-semibold text-4xl my-4 text-uw-purple">Cause</h1>
                             {/* Image for School to Prison Piepline 1200x500*/}
-                            <img alt="content"
+                            <img 
                                 className="rounded-md lg:w-[1250px] lg:h-[300px] md:w-auto md:h-auto object-cover"
-                                src={Image2} />
+                                src={Image2}
+                                alt="School to Prison Piepline 1200x500"
+                                 />
                         </div>
                         <div className="flex flex-col mt-3 mx-2">
                             <div className="sm:px-5 mt-3">
@@ -37,7 +39,7 @@ function Cause() {
                                 Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi, fermentum blandit erat justo euismod urna.
                                 Pellentesque dictum tincidunt tortor in lacinia.
                             </p>
-                            <div className="flex flex-col xl:flex-row justify-center mt-3 font-roboto sm:px-5 ">
+                            <div className="flex flex-col 2xl:flex-row items-center justify-center my-5 font-roboto sm:px-5 text-lg mb-4 ">
                                 <p className="mt-4">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae nunc congue, posuere justo sed, mattis lectus.
                                     Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at.
@@ -52,9 +54,9 @@ function Cause() {
                                     Etiam a lacus nec felis posuere lacinia. 
                                 </p>
                                 <img
-                                    className="w-[450px] h-[450px] object-cover rounded-md sm:ml-2 mt-4 sm:mt-0"
+                                    className="w-[450px] h-[450px] object-cover rounded-md sm:ml-2 mt-4"
                                     src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg"
-                                    alt="Image"
+                                    alt="Placeholder"
                                 />
                             </div>
                         </div>

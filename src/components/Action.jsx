@@ -13,17 +13,17 @@ function Action() {
               <img alt="content" className="rounded-md lg:w-[1250px] lg:h-[300px] md:w-auto md:h-auto object-cover" src={Image3} />
               <h1 className="font-lato text-4xl my-3 text-uw-gold">How can we tackle this?</h1>
             </div>
-            <div className="flex flex-col mt-5 mx-2 text-lg sm:px-5">
+            <div className="flex flex-col mt-4 mx-2 text-lg sm:px-5">
                 <p className="font-roboto text-justify text-uw-gray mt-3">The School to Prison Pipeline is a system of policies and practices that pushes
                   students out of school and into the criminal justice system. This system disproportionately affects students of color and students with disabilities.
                   The School to Prison Pipeline is a system of policies and practices that pushes students out of school and into the criminal justice system. This system disproportionately affects students of color and students with disabilities. The School to Prison Pipeline is a system of policies and practices that pushes students out of school and into the criminal justice system.
                   This system disproportionately affects students of color and students with disabilities.
                 </p>
-              <div className="flex flex-col lg:flex-row justify-center mt-3 font-roboto">
+              <div className="flex justify-center items-center flex-col 2xl:flex-row font-roboto my-5">
                 <img
                   className="w-[450px] h-[450px] object-cover rounded-md md:mr-4 mt-4 sm:mt-0"
                   src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg"
-                  alt="Image"
+                  alt="Placeholder"
                 />
                 <p className="mt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae nunc congue, posuere justo sed, mattis lectus.
