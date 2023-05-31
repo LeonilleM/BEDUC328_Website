@@ -14,7 +14,7 @@ function Resources() {
                 <img
                   className="w-[600px] h-[300px] object-cover rounded-md sm:ml-2 mt-4 sm:mt-0"
                   src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg"
-                  alt="Image"
+                  alt="Placeholder"
                 />
                 <div className="flex flex-col sm:mx-12 font-roboto">
                   <h1 className="text-3xl text-uw-gold">Resource #1</h1>
@@ -26,7 +26,7 @@ function Resources() {
                 <img
                   className="w-[600px] h-[300px] object-cover rounded-md sm:ml-2 mt-4 sm:mt-0"
                   src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg"
-                  alt="Image"
+                  alt="Placeholder"
                 />
                 <div className="flex flex-col sm:mx-12 font-roboto">
                   <h1 className="text-3xl text-uw-gold">Resource #2</h1>
@@ -38,7 +38,7 @@ function Resources() {
                 <img
                   className="w-[600px] h-[300px] object-cover rounded-md sm:ml-2 mt-4 sm:mt-0"
                   src="https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500.jpg"
-                  alt="Image"
+                  alt="Placeholder"
                 />
                 <div className="flex flex-col sm:mx-12 font-roboto">
                   <h1 className="text-3xl text-uw-gold">Resource #3</h1>

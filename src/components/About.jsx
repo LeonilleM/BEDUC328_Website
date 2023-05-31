@@ -9,34 +9,40 @@ function About() {
 
   const renderTabContent = () => {
     switch (activeTab) {
-      case 'dashboard':
+      case 'why':
         return (
-            <div className="p-4 rounded-lg flex flex-row" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
-             <h1 className="text-lg te">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Morbi vitae nunc congue, posuere justo sed, mattis lectus. Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at. Aliquam erat volutpat. Sed commodo, arcu hendrerit fermentum mattis, mauris nibh faucibus lectus, quis pellentesque magna massa eget mauris. Quisque tincidunt vulputate maximus. Ut metus nunc, placerat id metus ut, ultrices pharetra libero. 
-            Etiam a lacus nec felis posuere lacinia. Ut rhoncus placerat velit. Aenean scelerisque semper arcu nec ultricies. Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi, 
-            fermentum blandit erat justo euismod urna. Pellentesque dictum tincidunt tortor in lacinia.</h1>
+          <div className="p-4 rounded-lg" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
+          <h1 className="font-lato text-2xl font-semibold">Our reasoning</h1>
+          <div className="flex flex-row py-2">
+            <h1 className="text-lg te">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Morbi vitae nunc congue, posuere justo sed, mattis lectus. Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at. Aliquam erat volutpat. Sed commodo, arcu hendrerit fermentum mattis, mauris nibh faucibus lectus, quis pellentesque magna massa eget mauris. Quisque tincidunt vulputate maximus. Ut metus nunc, placerat id metus ut, ultrices pharetra libero.
+              Etiam a lacus nec felis posuere lacinia. Ut rhoncus placerat velit. Aenean scelerisque semper arcu nec ultricies. Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi,
+              fermentum blandit erat justo euismod urna. Pellentesque dictum tincidunt tortor in lacinia.</h1>
           </div>
+        </div>
         );
       case 'goal':
         return (
-            <div className="p-4 rounded-lg flex flex-row" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
-             <h1 className="text-lg te">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Morbi vitae nunc congue, posuere justo sed, mattis lectus. Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at. Aliquam erat volutpat. Sed commodo, arcu hendrerit fermentum mattis, mauris nibh faucibus lectus, quis pellentesque magna massa eget mauris. Quisque tincidunt vulputate maximus. Ut metus nunc, placerat id metus ut, ultrices pharetra libero. 
-            Etiam a lacus nec felis posuere lacinia. Ut rhoncus placerat velit. Aenean scelerisque semper arcu nec ultricies. Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi, 
-            fermentum blandit erat justo euismod urna. Pellentesque dictum tincidunt tortor in lacinia.</h1>
+          <div className="p-4 rounded-lg" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
+          <h1 className="font-lato text-2xl font-semibold">Intentions within the project</h1>
+          <div className="flex flex-row py-2">
+            <h1 className="text-lg te">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Morbi vitae nunc congue, posuere justo sed, mattis lectus. Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at. Aliquam erat volutpat. Sed commodo, arcu hendrerit fermentum mattis, mauris nibh faucibus lectus, quis pellentesque magna massa eget mauris. Quisque tincidunt vulputate maximus. Ut metus nunc, placerat id metus ut, ultrices pharetra libero.
+              Etiam a lacus nec felis posuere lacinia. Ut rhoncus placerat velit. Aenean scelerisque semper arcu nec ultricies. Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi,
+              fermentum blandit erat justo euismod urna. Pellentesque dictum tincidunt tortor in lacinia.</h1>
           </div>
+        </div>
         );
       default:
         return (
-            <div className="p-4 rounded-lg" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
+          <div className="p-4 rounded-lg" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
             <h1 className="font-lato text-2xl font-semibold">A group of diverse students, with inspirations within leadership</h1>
             <div className="flex flex-row py-2">
-            <h1 className="text-lg te">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Morbi vitae nunc congue, posuere justo sed, mattis lectus. Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at. Aliquam erat volutpat. Sed commodo, arcu hendrerit fermentum mattis, mauris nibh faucibus lectus, quis pellentesque magna massa eget mauris. Quisque tincidunt vulputate maximus. Ut metus nunc, placerat id metus ut, ultrices pharetra libero. 
-            Etiam a lacus nec felis posuere lacinia. Ut rhoncus placerat velit. Aenean scelerisque semper arcu nec ultricies. Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi, 
-            fermentum blandit erat justo euismod urna. Pellentesque dictum tincidunt tortor in lacinia.</h1>
-           </div>
+              <h1 className="text-lg te">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Morbi vitae nunc congue, posuere justo sed, mattis lectus. Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at. Aliquam erat volutpat. Sed commodo, arcu hendrerit fermentum mattis, mauris nibh faucibus lectus, quis pellentesque magna massa eget mauris. Quisque tincidunt vulputate maximus. Ut metus nunc, placerat id metus ut, ultrices pharetra libero.
+                Etiam a lacus nec felis posuere lacinia. Ut rhoncus placerat velit. Aenean scelerisque semper arcu nec ultricies. Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi,
+                fermentum blandit erat justo euismod urna. Pellentesque dictum tincidunt tortor in lacinia.</h1>
+            </div>
           </div>
         );
     }
@@ -55,9 +61,8 @@ function About() {
                 <ul className="flex justify-between -mb-px md:text-xl sm:text-sm font-medium text-center px-4" id="myTab" role="tablist">
                   <li className="mr-2" role="presentation">
                     <button
-                      className={`inline-block p-4 border-b-2 rounded-t-md ${
-                        activeTab === 'who_are_we' ? 'border-uw-purple bg-uw-gold/50' : 'border-transparent'
-                      }`}
+                      className={`inline-block p-4 border-b-2 rounded-t-md ${activeTab === 'who_are_we' ? 'border-uw-purple bg-uw-gold/50' : 'border-transparent'
+                        }`}
                       id="who_are_we-tab"
                       onClick={() => handleTabClick('who_are_we')}
                       type="button"
@@ -70,24 +75,22 @@ function About() {
                   </li>
                   <li className="mr-2" role="presentation">
                     <button
-                      className={`inline-block p-4 border-b-2 rounded-t-lg ${
-                        activeTab === 'dashboard' ? 'border-uw-purple bg-uw-gold/50' : 'border-transparent'
-                      }`}
-                      id="dashboard-tab"
-                      onClick={() => handleTabClick('dashboard')}
+                      className={`inline-block p-4 border-b-2 rounded-t-lg ${activeTab === 'why' ? 'border-uw-purple bg-uw-gold/50' : 'border-transparent'
+                        }`}
+                      id="why-tab"
+                      onClick={() => handleTabClick('why')}
                       type="button"
                       role="tab"
-                      aria-controls="dashboard"
-                      aria-selected={activeTab === 'dashboard'}
+                      aria-controls="why"
+                      aria-selected={activeTab === 'why'}
                     >
                       Why did we do this?
                     </button>
                   </li>
                   <li className="mr-2" role="presentation">
                     <button
-                      className={`inline-block p-4 border-b-2 rounded-t-lg ${
-                        activeTab === 'goal' ? 'border-uw-purple bg-uw-gold/50' : 'border-transparent'
-                      }`}
+                      className={`inline-block p-4 border-b-2 rounded-t-lg ${activeTab === 'goal' ? 'border-uw-purple bg-uw-gold/50' : 'border-transparent'
+                        }`}
                       id="goal-tab"
                       onClick={() => handleTabClick('goal')}
                       type="button"
