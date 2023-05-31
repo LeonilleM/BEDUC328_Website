@@ -4,7 +4,7 @@ import Image2 from '../Assets/Photos/img_2.jpg'
 function Cause() {
     return (
         <div  id="cause-section">
-            <section className="relative sm:ml-64 flex flex-col justify-center items-center">
+            <section className="relative sm:ml-64 flex flex-col justify-center items-center pb-10">
                 <div className="container px-2 my-4 mx-auto flex flex-col">
                     <div className="lg:w-5/6 mx-auto">
                         <div>
@@ -37,7 +37,7 @@ function Cause() {
                                 Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi, fermentum blandit erat justo euismod urna.
                                 Pellentesque dictum tincidunt tortor in lacinia.
                             </p>
-                            <div className="flex flex-col xl:flex-row justify-center mt-3 font-roboto text-lg sm:px-5">
+                            <div className="flex flex-col xl:flex-row justify-center mt-3 font-roboto sm:px-5 ">
                                 <p className="mt-4">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae nunc congue, posuere justo sed, mattis lectus.
                                     Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at.

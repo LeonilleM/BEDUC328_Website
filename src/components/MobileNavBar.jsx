@@ -23,14 +23,15 @@ function MobileNavBar() {
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   }
+  const navbarClassName = isOpen ? 'fixed top-0 left-0 z-50 w-64 h-screen bg-uw-purple transform transition-transform duration-200 translate-x-0' : 'fixed top-0 left-0 z-50 w-64 h-screen bg-uw-purple transform transition-transform duration-200 -translate-x-full';
 
 
   return (
     <div>
     {/* Mobile Menu */}
-    <div className="sm:hidden ease-in duration-150">
+    <section className="sm:hidden ease-in duration-150 ">
       <button
-        className="fixed top-0 left-0 z-50 flex items-center justify-center w-12 h-12 text-uw-purple"
+        className="fixed top-0 left-0 z-50 flex items-center px-4 w-screen h-11 text-uw-purple"
         onClick={toggleDropdown}
       >
         {isOpen ? (
@@ -143,7 +144,7 @@ function MobileNavBar() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
     </div>
     
   )
