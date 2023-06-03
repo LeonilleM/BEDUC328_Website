@@ -12,36 +12,36 @@ function About() {
       case 'why':
         return (
           <div className="p-4 rounded-lg" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
-          <h1 className="font-lato text-2xl font-semibold">Our reasoning</h1>
-          <div className="flex flex-row py-2">
-            <h1 className="text-lg te">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Morbi vitae nunc congue, posuere justo sed, mattis lectus. Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at. Aliquam erat volutpat. Sed commodo, arcu hendrerit fermentum mattis, mauris nibh faucibus lectus, quis pellentesque magna massa eget mauris. Quisque tincidunt vulputate maximus. Ut metus nunc, placerat id metus ut, ultrices pharetra libero.
-              Etiam a lacus nec felis posuere lacinia. Ut rhoncus placerat velit. Aenean scelerisque semper arcu nec ultricies. Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi,
-              fermentum blandit erat justo euismod urna. Pellentesque dictum tincidunt tortor in lacinia.</h1>
+            <h1 className="font-lato text-2xl font-semibold">Our reasoning</h1>
+            <div className="flex flex-row py-2">
+              <h1 className="text-lg te">Upon research and observation of general public schools,
+                we discovered the long-standing issue of the school-to-prison pipeline. We found this to be one of the primary sources of injustice within our public school system and sought to inform stakeholders
+                within this system of this troubling phenomenon. Injustice towards students of color and harsh punishments like
+                Juvenile detention is too much for kids of that age and we believe they deserve a chance as well as the opportunity to learn and improve instead of being forced to suffer these draconian punishments.</h1>
+            </div>
           </div>
-        </div>
         );
       case 'goal':
         return (
           <div className="p-4 rounded-lg" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
-          <h1 className="font-lato text-2xl font-semibold">Intentions within the project</h1>
-          <div className="flex flex-row py-2">
-            <h1 className="text-lg te">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Morbi vitae nunc congue, posuere justo sed, mattis lectus. Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at. Aliquam erat volutpat. Sed commodo, arcu hendrerit fermentum mattis, mauris nibh faucibus lectus, quis pellentesque magna massa eget mauris. Quisque tincidunt vulputate maximus. Ut metus nunc, placerat id metus ut, ultrices pharetra libero.
-              Etiam a lacus nec felis posuere lacinia. Ut rhoncus placerat velit. Aenean scelerisque semper arcu nec ultricies. Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi,
-              fermentum blandit erat justo euismod urna. Pellentesque dictum tincidunt tortor in lacinia.</h1>
+            <h1 className="font-lato text-2xl font-semibold">Intentions within the project</h1>
+            <div className="flex flex-row py-2">
+              <h1 className="text-lg te">To keep this issue in the eyes of the public and provide an educational medium to further educate others of this issue. 
+              Hopefully, this website can and will be browsed by many stakeholders within the community and there will be some clamor for reform to change this system. 
+              Though we do not have a concrete solution for this issue, the goal of this website is to raise awareness of the issue which will result in work to resolve it in the future.
+              </h1>
+            </div>
           </div>
-        </div>
         );
       default:
         return (
           <div className="p-4 rounded-lg" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
             <h1 className="font-lato text-2xl font-semibold">A group of diverse students, with inspirations within leadership</h1>
             <div className="flex flex-row py-2">
-              <h1 className="text-lg te">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Morbi vitae nunc congue, posuere justo sed, mattis lectus. Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at. Aliquam erat volutpat. Sed commodo, arcu hendrerit fermentum mattis, mauris nibh faucibus lectus, quis pellentesque magna massa eget mauris. Quisque tincidunt vulputate maximus. Ut metus nunc, placerat id metus ut, ultrices pharetra libero.
-                Etiam a lacus nec felis posuere lacinia. Ut rhoncus placerat velit. Aenean scelerisque semper arcu nec ultricies. Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi,
-                fermentum blandit erat justo euismod urna. Pellentesque dictum tincidunt tortor in lacinia.</h1>
+              <h1 className="text-lg te">We are a group of students who attend the University of Washington
+                who as part of our own curiosity and part of our studies have observed troubling trends within our education system.
+                And we have decided to take action, and create a platform that others can use to help themselves and others.
+              </h1>
             </div>
           </div>
         );
