@@ -46,26 +46,29 @@ function Cause() {
                                 addressed through the economic lens.
                             </p>
                             <div className="flex flex-col 2xl:flex-row items-center justify-center my-5 font-roboto sm:px-5 text-lg mb-4 ">
+                                <div className= "mt-4">
+                                <p className ="text-sm font-bold italic"> Figure 1.0</p>
                                 <div className="justify-center items-center flex flex-col">
-                                    <img
-                                        className="sm:w-[600px] sm:h-[350px] h-[250px] rounded-md md:mr-4 mt-4 sm:mt-0"
+                                <img
+                                        className="sm:w-[600px] sm:h-[350px] h-[250px] rounded-md md:mr-4 sm:mt-0"
                                         src={Graph}
                                         alt="Graph of data"
                                     />
                                     <p className="text-sm md:w-[600px] sm:w-auto">
-                                        In the Department of Education's 2017-2018 survey of 2762 schools, 36% of them reported having at least one arrest during the school year.
+                                        In the Department of Education's 2017-2018 survey of 2762 schools, 36% of students reported having at least one arrest during the school year.
                                         <a href="https://nces.ed.gov/pubs2020/2020054.pdf" target="h_blank" className="text-uw-purple font-semibold"> Learn more here</a>
                                     </p>
                                 </div>
+                                    
+                                </div>
                                 <div className="sm:w-auto 2xl:w-1/2 mx-2">
                                     <p className="mt-4">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae nunc congue, posuere justo sed, mattis lectus.
-                                        Donec cursus sapien ut tellus venenatis, eget accumsan massa malesuada. Nunc aliquam eleifend lacus, vel varius risus porta at.
-                                        Aliquam erat volutpat. Sed commodo, arcu hendrerit fermentum mattis, mauris nibh faucibus lectus, quis pellentesque magna massa eget mauris.
-                                        Quisque tincidunt vulputate maximus. Ut metus nunc, placerat id metus ut, ultrices pharetra libero.
-                                        Etiam a lacus nec felis posuere lacinia. Ut rhoncus placerat velit. Aenean scelerisque semper arcu nec ultricies.
-                                        Mauris iaculis, nulla vitae vehicula dapibus, velit nibh feugiat nisi, fermentum blandit erat justo euismod urna.
-                                        Pellentesque dictum tincidunt tortor in lacinia.
+                                        Additionally, students often make indirect contact with the criminal justice system. 
+                                        In a survey conducted by the Department of Education across 2762 schools as shown in (Figure 1.0), 36% of 
+                                        principals reported having witnessed at least one arrest during the 2017-2018 school year. 
+                                        Between events like this, police officers in schools, and very harsh punishments for certain 
+                                        misbehavior, students chances of becoming involved with the criminal justice system have 
+                                        increased, even if they didn't necessarily misbehave during their school experience.
                                     </p>
                                 </div>
                             </div>

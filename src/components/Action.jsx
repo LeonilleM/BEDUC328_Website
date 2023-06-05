@@ -1,6 +1,5 @@
 import React from 'react'
 import ActionIMG from '../Assets/Photos/action_img_1.jpg'
-import Graph from '../Assets/Photos/pi_graph.png'
 import Image3 from '../Assets/Photos/img_3.jpeg'
 
 function Action() {
@@ -22,6 +21,7 @@ function Action() {
                 and others to explore and research how the school to prison pipeline may affect their local school district, and also help them
                 understand that all of us have the means to band together in collective action in order to make a difference.
               </p>
+                {/*DIV FOR Sectiona with Image, Caption and short paragraph*/}
               <div className="flex flex-col 2xl:flex-row items-center justify-center my-5 font-roboto sm:px-5 text-lg mb-4 ">
                 <div className="justify-center items-center flex flex-col">
                 <img
@@ -34,22 +34,24 @@ function Action() {
                   <a href="https://www.huffpost.com/entry/little-black-girls-are-th_b_2871120" target= "h_blank"className="text-uw-purple font-semibold"> Read more here</a>
                   </p>
                 </div>
-                 <div className="sm:w-auto 2xl:w-1/2 mx-2">
+                 <div className="sm:w-auto 2xl:w-1/2">
                  <p className ="mt-4">
                     The School To Prison Pipeline is a framework for analysis of a situation, and because of this, the way in which it acts can vary significantly from place to place.
                     For instance, the students at an expensive private school may almost never come into contact with a pipeline as a result of factors such as economic status
                     and the level of funding available for the school to take disciplinary action on its own, while the local public high school in an economically
                     disadvantaged area will struggle with issues like increased likelihood of misbehavior by students and increased police presence. Depending on the popular
                     politics of the location, the local school board and politicians may be very open to taking action or incredibly hostile to it
-                    <span className="italic font-semibold">
+                    <span className="italic font-bold font-roboto">
                       (for instance, people in power may want students who take illegal actions to be expelled regardless of the crime in order to give off a “tough on crime” appearance)
                     </span>.
                     This is why it is so important for us as individuals to make an effort to understand what is going on in our local communities
                     and figuring out what the best course of action is in that specific situation.
                   </p>
+              
                  </div>
               </div>
-              <p className="mt-4 font-roboto mx-7">
+              <hr className="border-uw-gold my-2" />
+              <p className="mt-4 font-roboto">
                 It is also important that we share and emphasize the importance of this situation with the people around us, in order to encourage and build the will for change in our local communities.
                 All of us have the ability to form movements, taking cues from the leaders before us in our approach. Together, we can help dismantle this pipeline.
               </p>

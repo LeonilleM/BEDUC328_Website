@@ -14,10 +14,15 @@ function About() {
           <div className="p-4 rounded-lg" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
             <h1 className="font-lato text-2xl font-semibold">Our reasoning</h1>
             <div className="flex flex-row py-2">
-              <h1 className="text-lg te">Upon research and observation of general public schools,
-                we discovered the long-standing issue of the school-to-prison pipeline. We found this to be one of the primary sources of injustice within our public school system and sought to inform stakeholders
-                within this system of this troubling phenomenon. Injustice towards students of color and harsh punishments like
-                Juvenile detention is too much for kids of that age and we believe they deserve a chance as well as the opportunity to learn and improve instead of being forced to suffer these draconian punishments.</h1>
+              <h1 className="text-lg te">
+              Upon research and observation of general public schools, we discovered the long-standing 
+              issue of the school-to-prison pipeline. We found this to be one of the primary sources of injustice 
+              within our public school system and sought to inform stakeholders within this system of this troubling phenomenon. 
+              This is a very precious time within the developmental phase for these children, so they are just starting to learn about 
+              “what is right” versus “what is wrong.” Injustice towards students of color and harsh punishments like 
+              Juvenile detention is too much for kids of that age and we believe they deserve a chance as well as the opportunity to 
+              learn and improve instead of being forced to suffer these draconian punishments.
+              </h1>
             </div>
           </div>
         );
@@ -26,9 +31,13 @@ function About() {
           <div className="p-4 rounded-lg" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
             <h1 className="font-lato text-2xl font-semibold">Intentions within the project</h1>
             <div className="flex flex-row py-2">
-              <h1 className="text-lg te">To keep this issue in the eyes of the public and provide an educational medium to further educate others of this issue. 
-              Hopefully, this website can and will be browsed by many stakeholders within the community and there will be some clamor for reform to change this system. 
-              Though we do not have a concrete solution for this issue, the goal of this website is to raise awareness of the issue which will result in work to resolve it in the future.
+              <h1 className="text-lg te">
+              To keep this issue in the eyes of the public and provide an educational medium to further educate 
+              others of this issue. Hopefully, this website can and will be browsed by many stakeholders within the 
+              community and there will be some clamor for reform to change this system. We also hope that this website 
+              could be used as a resource to further educate the general public about this ongoing issue. Though we do not 
+              have a concrete solution for this issue, the goal of this website is to raise awareness of the issue which 
+              will result in work to resolve it in the future.
               </h1>
             </div>
           </div>
@@ -40,7 +49,9 @@ function About() {
             <div className="flex flex-row py-2">
               <h1 className="text-lg te">We are a group of students who attend the University of Washington
                 who as part of our own curiosity and part of our studies have observed troubling trends within our education system.
-                And we have decided to take action, and create a platform that others can use to help themselves and others.
+               We have decided to dig deeper into the school-to-prison pipeline. With that, we have decided to make a 
+               change and bring forward more exposure to this ongoing issue within our education system with hopes to destigmatize 
+               the negative connotation that derives from the modern educational setting. 
               </h1>
             </div>
           </div>
